@@ -1,0 +1,11 @@
+AUGMENTATION: true
+IMAGE_SIZE:               # as per VGG 16 model
+- 224
+- 224
+- 3
+BATCH_SIZE: 16
+INCLUDE_TOP: false
+EPOCHS: 100
+CLASSES: 4
+WEIGHTS: imagenet
+LEARNING_RATE: 0.01
