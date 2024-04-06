@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: cnnClassifier
+Version: 0.0.0
+Summary: A small python package for cnn app
+Home-page: httpa://github.com/sachinbareth/kidney-Disease-Classification-MLflow-DVC
+Author: sachinbareth
+Author-email: sachinbareth099@gmail.com
+Project-URL: Bug Tracker, httpa://github.com/sachinbareth/kidney-Disease-Classification-MLflow-DVC/issues
+Description-Content-Type: text/markdown
+
+# kidney-Disease-Classification-MLflow-DVC
+
+# How to run?
+
+### STEPS:
+clone the repository
+
+```bash
+https://github.com/sachinbareth/kidney-Disease-Classification-MLflow-DVC
+```
+
+### STEP 01- Create a conda environment after the repository
+
+```bash
+conda create -n cnncls python=3.8 -y
+```
+```bash
+conda activate cnncls
+```
+### STEP 02- install the requirements
+```bash
+pip install -r requirements.txt
+```
