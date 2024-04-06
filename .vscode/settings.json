@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./kidney-Disease-Classification-MLflow-DVC/src"
+    ]
+}
