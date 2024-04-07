@@ -949,3 +949,144 @@ x==========x]
 [2024-04-06 18:44:18,995: INFO: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-04-07 15:43:58,611: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.59:8080]
+[2024-04-07 15:43:58,612: INFO: [33mPress CTRL+C to quit[0m]
+[2024-04-07 15:45:06,128: INFO: 127.0.0.1 - - [07/Apr/2024 15:45:06] "GET / HTTP/1.1" 200 -]
+[2024-04-07 15:47:14,619: ERROR: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\sachi\Code\Deep Learning project\kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-04-07 15:47:14,627: INFO: 127.0.0.1 - - [07/Apr/2024 15:47:14] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-07 15:50:03,816: INFO: 127.0.0.1 - - [07/Apr/2024 15:50:03] "GET / HTTP/1.1" 200 -]
+[2024-04-07 15:50:06,802: INFO: 127.0.0.1 - - [07/Apr/2024 15:50:06] "GET / HTTP/1.1" 200 -]
+[2024-04-07 15:50:12,392: ERROR: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\sachi\Code\Deep Learning project\kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-04-07 15:50:12,394: INFO: 127.0.0.1 - - [07/Apr/2024 15:50:12] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-07 15:53:09,913: INFO: 127.0.0.1 - - [07/Apr/2024 15:53:09] "GET / HTTP/1.1" 200 -]
+[2024-04-07 15:53:20,321: ERROR: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\sachi\Code\Deep Learning project\kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-04-07 15:53:20,323: INFO: 127.0.0.1 - - [07/Apr/2024 15:53:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-07 15:54:26,042: INFO: 127.0.0.1 - - [07/Apr/2024 15:54:26] "GET / HTTP/1.1" 200 -]
+[2024-04-07 15:54:28,763: ERROR: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\sachi\Code\Deep Learning project\kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-04-07 15:54:28,764: INFO: 127.0.0.1 - - [07/Apr/2024 15:54:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-04-07 15:54:31,440: INFO: 127.0.0.1 - - [07/Apr/2024 15:54:31] "GET / HTTP/1.1" 200 -]
+[2024-04-07 15:54:43,848: ERROR: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 35, in predictRoute
+    result = clApp.classifier.predict()
+  File "C:\Users\sachi\Code\Deep Learning project\kidney-Disease-Classification-MLflow-DVC\src\cnnClassifier\pipeline\prediction.py", line 21, in predict
+    model = load_model(os.path.join("model", "model.h5"))
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at model\model.h5
+[2024-04-07 15:54:43,850: INFO: 127.0.0.1 - - [07/Apr/2024 15:54:43] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
