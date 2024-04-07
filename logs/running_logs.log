@@ -719,55 +719,233 @@ x==========x]
 [2024-04-06 11:44:04,807: INFO: >>>>>> stage Training completed <<<<<<
 
 x==========x]
-[2024-04-07 10:33:14,836: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-07 10:33:14,847: INFO: yaml file: config\config.yaml loaded successfully]
-[2024-04-07 10:33:14,853: INFO: yaml file: params.yaml loaded successfully]
-[2024-04-07 10:33:14,856: INFO: created directory at: artifacts]
-[2024-04-07 10:33:14,857: INFO: created directory at: artifacts/data_ingestion]
-[2024-04-07 10:33:14,859: INFO: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-07 10:33:23,551: INFO: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-07 10:33:24,290: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2024-04-06 13:59:33,975: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 13:59:33,983: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 13:59:33,986: INFO: created directory at: artifacts]
+[2024-04-06 13:59:52,816: INFO: json file saved at: scores.json]
+[2024-04-06 13:59:57,365: WARNING: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-06 13:59:58,296: INFO: Assets written to: C:\Users\sachi\AppData\Local\Temp\tmpsthex6pd\model\data\model\assets]
+[2024-04-06 14:37:53,323: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-06 14:37:53,329: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 14:37:53,334: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 14:37:53,336: INFO: created directory at: artifacts]
+[2024-04-06 14:37:53,336: INFO: created directory at: artifacts/data_ingestion]
+[2024-04-06 14:37:53,337: INFO: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 14:38:02,346: INFO: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 14:38:03,065: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
-[2024-04-07 10:33:24,291: INFO: ********************]
-[2024-04-07 10:33:24,291: INFO: >>>>>> stage Prepare base model started <<<<<<]
-[2024-04-07 10:33:24,294: INFO: yaml file: config\config.yaml loaded successfully]
-[2024-04-07 10:33:24,296: INFO: yaml file: params.yaml loaded successfully]
-[2024-04-07 10:33:24,296: INFO: created directory at: artifacts]
-[2024-04-07 10:33:24,297: INFO: created directory at: artifacts/prepare_base_model]
-[2024-04-07 10:33:24,873: WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2024-04-07 10:33:25,174: INFO: >>>>>> stage Prepare base model completed <<<<<<
+[2024-04-06 14:38:03,066: INFO: ********************]
+[2024-04-06 14:38:03,066: INFO: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 14:38:03,069: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 14:38:03,072: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 14:38:03,072: INFO: created directory at: artifacts]
+[2024-04-06 14:38:03,073: INFO: created directory at: artifacts/prepare_base_model]
+[2024-04-06 14:38:03,749: WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 14:38:04,049: INFO: >>>>>> stage Prepare base model completed <<<<<<
 
 x==========x]
-[2024-04-07 10:33:25,174: INFO: *******************]
-[2024-04-07 10:33:25,174: INFO: >>>>>> stage Training started <<<<<<]
-[2024-04-07 10:33:25,177: INFO: yaml file: config\config.yaml loaded successfully]
-[2024-04-07 10:33:25,180: INFO: yaml file: params.yaml loaded successfully]
-[2024-04-07 10:33:25,180: INFO: created directory at: artifacts]
-[2024-04-07 10:33:25,181: INFO: created directory at: artifacts\training]
-[2024-04-07 10:36:22,682: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
-[2024-04-07 10:36:22,686: INFO: yaml file: config\config.yaml loaded successfully]
-[2024-04-07 10:36:22,688: INFO: yaml file: params.yaml loaded successfully]
-[2024-04-07 10:36:22,688: INFO: created directory at: artifacts]
-[2024-04-07 10:36:22,689: INFO: created directory at: artifacts/data_ingestion]
-[2024-04-07 10:36:22,689: INFO: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-07 10:36:30,459: INFO: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
-[2024-04-07 10:36:31,140: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
+[2024-04-06 14:38:04,050: INFO: *******************]
+[2024-04-06 14:38:04,050: INFO: >>>>>> stage Training started <<<<<<]
+[2024-04-06 14:38:04,053: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 14:38:04,055: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 14:38:04,055: INFO: created directory at: artifacts]
+[2024-04-06 14:38:04,055: INFO: created directory at: artifacts\training]
+[2024-04-06 15:52:27,542: INFO: >>>>>> stage Training completed <<<<<<
 
 x==========x]
-[2024-04-07 10:36:31,141: INFO: ********************]
-[2024-04-07 10:36:31,141: INFO: >>>>>> stage Prepare base model started <<<<<<]
-[2024-04-07 10:36:31,144: INFO: yaml file: config\config.yaml loaded successfully]
-[2024-04-07 10:36:31,147: INFO: yaml file: params.yaml loaded successfully]
-[2024-04-07 10:36:31,148: INFO: created directory at: artifacts]
-[2024-04-07 10:36:31,148: INFO: created directory at: artifacts/prepare_base_model]
-[2024-04-07 10:36:31,719: WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
-[2024-04-07 10:36:32,032: INFO: >>>>>> stage Prepare base model completed <<<<<<
+[2024-04-06 15:52:27,543: INFO: *******************]
+[2024-04-06 15:52:27,544: INFO: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 15:52:27,550: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 15:52:27,552: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 15:52:27,553: INFO: created directory at: artifacts]
+[2024-04-06 15:52:27,940: ERROR: [WinError 3] The system cannot find the path specified: 'artifacts/data_ingestion/Kideny_data']
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    model_evalution.main()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 18, in main
+    evaluation.evaluation()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\components\model_evaluation_mlflow.py", line 47, in evaluation
+    self._valid_generator()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\components\model_evaluation_mlflow.py", line 32, in _valid_generator
+    self.valid_generator = valid_datagenerator.flow_from_directory(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 1648, in flow_from_directory
+    return DirectoryIterator(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\keras\preprocessing\image.py", line 563, in __init__
+    for subdir in sorted(os.listdir(directory)):
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'artifacts/data_ingestion/Kideny_data'
+[2024-04-06 15:55:32,836: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-06 15:55:32,841: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 15:55:32,844: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 15:55:32,845: INFO: created directory at: artifacts]
+[2024-04-06 15:55:32,845: INFO: created directory at: artifacts/data_ingestion]
+[2024-04-06 15:55:32,846: INFO: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 15:55:41,530: INFO: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 15:55:42,058: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
-[2024-04-07 10:36:32,032: INFO: *******************]
-[2024-04-07 10:36:32,032: INFO: >>>>>> stage Training started <<<<<<]
-[2024-04-07 10:36:32,035: INFO: yaml file: config\config.yaml loaded successfully]
-[2024-04-07 10:36:32,037: INFO: yaml file: params.yaml loaded successfully]
-[2024-04-07 10:36:32,038: INFO: created directory at: artifacts]
-[2024-04-07 10:36:32,038: INFO: created directory at: artifacts\training]
+[2024-04-06 15:55:42,058: INFO: ********************]
+[2024-04-06 15:55:42,058: INFO: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 15:55:42,061: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 15:55:42,062: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 15:55:42,063: INFO: created directory at: artifacts]
+[2024-04-06 15:55:42,063: INFO: created directory at: artifacts/prepare_base_model]
+[2024-04-06 15:55:42,603: WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 15:55:42,904: INFO: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-06 15:55:42,905: INFO: *******************]
+[2024-04-06 15:55:42,905: INFO: >>>>>> stage Training started <<<<<<]
+[2024-04-06 15:55:42,908: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 15:55:42,910: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 15:55:42,911: INFO: created directory at: artifacts]
+[2024-04-06 15:55:42,911: INFO: created directory at: artifacts\training]
+[2024-04-06 17:02:52,665: INFO: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-04-06 17:02:52,668: INFO: *******************]
+[2024-04-06 17:02:52,669: INFO: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 17:02:52,675: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:02:52,678: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:02:52,679: INFO: created directory at: artifacts]
+[2024-04-06 17:03:05,274: INFO: json file saved at: scores.json]
+[2024-04-06 17:03:05,275: INFO: json file saved at: scores.json]
+[2024-04-06 17:03:09,647: WARNING: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-06 17:03:10,311: INFO: Assets written to: C:\Users\sachi\AppData\Local\Temp\tmp2432vzml\model\data\model\assets]
+[2024-04-06 17:04:23,706: ERROR: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    model_evalution.main()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\components\model_evaluation_mlflow.py", line 72, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2024-04-06 17:19:39,642: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-06 17:19:39,651: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:19:39,653: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:19:39,654: INFO: created directory at: artifacts]
+[2024-04-06 17:19:39,654: INFO: created directory at: artifacts/data_ingestion]
+[2024-04-06 17:19:39,654: INFO: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 17:19:57,469: INFO: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 17:19:57,992: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-06 17:19:57,992: INFO: ********************]
+[2024-04-06 17:19:57,992: INFO: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 17:19:57,995: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:19:57,996: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:19:57,997: INFO: created directory at: artifacts]
+[2024-04-06 17:19:57,997: INFO: created directory at: artifacts/prepare_base_model]
+[2024-04-06 17:19:58,424: WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 17:19:58,745: INFO: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-06 17:19:58,746: INFO: *******************]
+[2024-04-06 17:19:58,746: INFO: >>>>>> stage Training started <<<<<<]
+[2024-04-06 17:19:58,748: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:19:58,750: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:19:58,751: INFO: created directory at: artifacts]
+[2024-04-06 17:19:58,751: INFO: created directory at: artifacts\training]
+[2024-04-06 17:20:38,437: INFO: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-04-06 17:20:38,437: INFO: *******************]
+[2024-04-06 17:20:38,437: INFO: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 17:20:38,440: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:20:38,441: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:20:38,442: INFO: created directory at: artifacts]
+[2024-04-06 17:20:50,008: INFO: json file saved at: scores.json]
+[2024-04-06 17:20:50,009: INFO: json file saved at: scores.json]
+[2024-04-06 17:20:53,668: WARNING: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-06 17:20:54,369: INFO: Assets written to: C:\Users\sachi\AppData\Local\Temp\tmpyww6pcvq\model\data\model\assets]
+[2024-04-06 17:22:06,973: ERROR: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: '']
+Traceback (most recent call last):
+  File "main.py", line 48, in <module>
+    model_evalution.main()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\pipeline\stage_04_model_evaluation.py", line 20, in main
+    evaluation.log_into_mlflow()
+  File "c:\users\sachi\code\deep learning project\kidney-disease-classification-mlflow-dvc\kidney-disease-classification-mlflow-dvc\src\cnnClassifier\components\model_evaluation_mlflow.py", line 72, in log_into_mlflow
+    mlflow.keras.log_model(self.model, "model", registered_model_name="VGG16Model")
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tensorflow\__init__.py", line 222, in log_model
+    return Model.log(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\models\model.py", line 562, in log
+    mlflow.register_model(
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 77, in register_model
+    raise e
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\fluent.py", line 68, in register_model
+    create_model_response = client.create_registered_model(name)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\client.py", line 1743, in create_registered_model
+    return self._get_registry_client().create_registered_model(name, tags, description)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\tracking\_model_registry\client.py", line 63, in create_registered_model
+    return self.store.create_registered_model(name, tags, description)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\store\model_registry\rest_store.py", line 75, in create_registered_model
+    response_proto = self._call_endpoint(CreateRegisteredModel, req_body)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\store\model_registry\base_rest_store.py", line 42, in _call_endpoint
+    return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 281, in call_endpoint
+    response = verify_rest_response(response, endpoint)
+  File "C:\Users\sachi\.conda\envs\kidney\lib\site-packages\mlflow\utils\rest_utils.py", line 213, in verify_rest_response
+    raise MlflowException(
+mlflow.exceptions.MlflowException: API request to endpoint /api/2.0/mlflow/registered-models/create failed with error code 403 != 200. Response body: ''
+[2024-04-06 17:30:32,776: INFO: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-04-06 17:30:32,780: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:30:32,783: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:30:32,783: INFO: created directory at: artifacts]
+[2024-04-06 17:30:32,784: INFO: created directory at: artifacts/data_ingestion]
+[2024-04-06 17:30:32,784: INFO: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 17:30:44,949: INFO: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-04-06 17:30:45,464: INFO: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-04-06 17:30:45,465: INFO: ********************]
+[2024-04-06 17:30:45,465: INFO: >>>>>> stage Prepare base model started <<<<<<]
+[2024-04-06 17:30:45,467: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:30:45,469: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:30:45,470: INFO: created directory at: artifacts]
+[2024-04-06 17:30:45,470: INFO: created directory at: artifacts/prepare_base_model]
+[2024-04-06 17:30:45,949: WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-04-06 17:30:46,241: INFO: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-04-06 17:30:46,242: INFO: *******************]
+[2024-04-06 17:30:46,242: INFO: >>>>>> stage Training started <<<<<<]
+[2024-04-06 17:30:46,245: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 17:30:46,247: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 17:30:46,248: INFO: created directory at: artifacts]
+[2024-04-06 17:30:46,250: INFO: created directory at: artifacts\training]
+[2024-04-06 18:42:50,300: INFO: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-04-06 18:42:50,305: INFO: *******************]
+[2024-04-06 18:42:50,305: INFO: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-04-06 18:42:50,315: INFO: yaml file: config\config.yaml loaded successfully]
+[2024-04-06 18:42:50,319: INFO: yaml file: params.yaml loaded successfully]
+[2024-04-06 18:42:50,321: INFO: created directory at: artifacts]
+[2024-04-06 18:43:03,178: INFO: json file saved at: scores.json]
+[2024-04-06 18:43:03,179: INFO: json file saved at: scores.json]
+[2024-04-06 18:43:07,259: WARNING: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-04-06 18:43:07,952: INFO: Assets written to: C:\Users\sachi\AppData\Local\Temp\tmp3vz_ghif\model\data\model\assets]
+[2024-04-06 18:44:18,995: INFO: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
