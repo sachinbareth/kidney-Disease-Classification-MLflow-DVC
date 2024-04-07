@@ -1123,3 +1123,41 @@ OSError: No file or directory found at model\model.h5
 [2024-04-07 16:22:27,671: INFO: 127.0.0.1 - - [07/Apr/2024 16:22:27] "[31m[1mGET /predict HTTP/1.1[0m" 405 -]
 [2024-04-07 16:22:27,723: INFO: 127.0.0.1 - - [07/Apr/2024 16:22:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
 [2024-04-07 16:22:35,202: INFO: 127.0.0.1 - - [07/Apr/2024 16:22:35] "GET / HTTP/1.1" 200 -]
+[2024-04-07 17:24:14,121: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.59:8080]
+[2024-04-07 17:24:14,122: INFO: [33mPress CTRL+C to quit[0m]
+[2024-04-07 17:24:28,670: INFO: 192.168.1.59 - - [07/Apr/2024 17:24:28] "GET / HTTP/1.1" 200 -]
+[2024-04-07 17:24:36,701: INFO: 192.168.1.59 - - [07/Apr/2024 17:24:36] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:24:49,143: INFO: 192.168.1.59 - - [07/Apr/2024 17:24:49] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:27:33,949: INFO: 192.168.1.59 - - [07/Apr/2024 17:27:33] "GET / HTTP/1.1" 200 -]
+[2024-04-07 17:27:41,247: INFO: 192.168.1.59 - - [07/Apr/2024 17:27:41] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:29:16,578: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.59:8080]
+[2024-04-07 17:29:16,578: INFO: [33mPress CTRL+C to quit[0m]
+[2024-04-07 17:29:32,347: INFO: 127.0.0.1 - - [07/Apr/2024 17:29:32] "GET / HTTP/1.1" 200 -]
+[2024-04-07 17:29:38,070: INFO: 127.0.0.1 - - [07/Apr/2024 17:29:38] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:35:21,042: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.59:8080]
+[2024-04-07 17:35:21,042: INFO: [33mPress CTRL+C to quit[0m]
+[2024-04-07 17:35:35,859: INFO: 192.168.1.59 - - [07/Apr/2024 17:35:35] "GET / HTTP/1.1" 200 -]
+[2024-04-07 17:35:43,065: INFO: 192.168.1.59 - - [07/Apr/2024 17:35:43] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:35:55,194: INFO: 192.168.1.59 - - [07/Apr/2024 17:35:55] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:39:09,184: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.59:8080]
+[2024-04-07 17:39:09,185: INFO: [33mPress CTRL+C to quit[0m]
+[2024-04-07 17:39:32,936: INFO: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.59:8080]
+[2024-04-07 17:39:32,936: INFO: [33mPress CTRL+C to quit[0m]
+[2024-04-07 17:39:50,530: INFO: 192.168.1.59 - - [07/Apr/2024 17:39:50] "GET / HTTP/1.1" 200 -]
+[2024-04-07 17:39:58,615: INFO: 192.168.1.59 - - [07/Apr/2024 17:39:58] "POST /predict HTTP/1.1" 200 -]
+[2024-04-07 17:40:14,728: INFO: 192.168.1.59 - - [07/Apr/2024 17:40:14] "POST /predict HTTP/1.1" 200 -]
