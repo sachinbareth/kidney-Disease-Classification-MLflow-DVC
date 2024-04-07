@@ -77,3 +77,47 @@ export MLFLOW_TRACKING_USERNAME=sachinbareth
 
 export MLFLOW_TRACKING_PASSWORD=5ed04e79885a1204e0f15fc08d9027377a1d667e
 ```
+
+
+
+
+
+```bash
+# Finally run the following command
+python app.py
+```
+Now,
+```bash
+open up you local host and port
+```
+### MLflow
+[Documentation](https://mlflow.org/docs/latest/index.html)
+
+
+
+##### cmd
+-mlflow ui
+### dagshub
+[dagshub](https://dagshub.com)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/sachinbareth/kidney-Disease-Classification-MLflow-DVC.mlflow
+MLFLOW_TRACKING_USERNAME=sachinbareth
+MLFLOW_TRACKING_PASSWORD=5ed04e79885a1204e0f15fc08d9027377a1d667e
+python script.py
+
+Run this to export as env variables:
+
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/sachinbareth/kidney-Disease-Classification-MLflow-DVC.mlflow
+
+export MLFLOW_TRACKING_USERNAME=sachinbareth 
+
+export MLFLOW_TRACKING_PASSWORD=5ed04e79885a1204e0f15fc08d9027377a1d667e
+```
+
+
+### DVC cmd
+
+1. dvc init
+2. dvc repro
+3. dvc dag
